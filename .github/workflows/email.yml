@@ -25,7 +25,7 @@ jobs:
 
     - name: Set up environment variables
       run: |
-        TAREEK=$(date +'%m/%d/%Y')
+        TAREEK=$(date +'%m-%d-%Y')
         SUBJECT="Report #$TAREEK [Utsav Chaudhary]"
         echo "SUBJECT=$SUBJECT" >> $GITHUB_ENV
         echo "TAREEK=$TAREEK" >> $GITHUB_ENV
