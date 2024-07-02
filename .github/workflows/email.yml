@@ -36,7 +36,8 @@ jobs:
 
     - name: Make PDF of MD File
       run: |
-        md2pdf report.MD ${{ env.TAREEK }}.pdf
+        cp report.pdf ${{ env.TAREEK }}.pdf
+      # md2pdf report.MD ${{ env.TAREEK }}.pdf
   
       
     - name: Send mail
@@ -61,8 +62,8 @@ jobs:
 
     - name: Commit and push the PDF report
       run: |
-        git config --global user.name "Your GitHub Username"
-        git config --global user.email "your-email@example.com"
+        git config --global user.name "UttU28"
+        git config --global user.email "utsavmaan28@gmail.com"
         git add ${{ env.TAREEK }}.pdf
         git commit -m "Add PDF report for ${{ env.TAREEK }}"
         git push
