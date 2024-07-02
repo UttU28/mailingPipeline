@@ -1,0 +1,67 @@
+name: Send Email
+
+on:
+  push:
+    branches:
+      - sendEmail
+  workflow_dispatch:
+
+jobs:
+  send_email_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install md2pdf
+
+    - name: Set up environment variables
+      run: |
+        TAREEK=$(date +'%m/%d/%Y')
+        SUBJECT="Report #$TAREEK [Utsav Chaudhary]"
+        echo "SUBJECT=$SUBJECT" >> $GITHUB_ENV
+        echo "TAREEK=$TAREEK" >> $GITHUB_ENV
+        echo "SUBJECT is $SUBJECT"
+
+    - name: Make PDF of MD File
+      run: |
+        md2pdf report.MD ${{ env.TAREEK }}.pdf
+  
+      
+    - name: Send mail
+      uses: dawidd6/action-send-mail@v3
+      with:
+        # connection_url: ${{secrets.MAIL_CONNECTION}}
+        server_address: smtp.gmail.com
+        server_port: 465
+        secure: true
+        username: ${{secrets.MAIL_USERNAME}}
+        password: ${{secrets.MAIL_PASSWORD}}
+        subject: ${{env.SUBJECT}}
+        to: utsavmaan28@gmail.com
+        from: Utsav Chaudhary
+        body: |
+          Hey, this is the new resume update for Utsav Chaudhary. 
+          Please find the resume in the attachments!
+          
+          Thanks & Regards
+          Utsav Chaudhary
+        attachments: ./${{ env.TAREEK }}.pdf
+
+    - name: Commit and push the PDF report
+      run: |
+        git config --global user.name "Your GitHub Username"
+        git config --global user.email "your-email@example.com"
+        git add ${{ env.TAREEK }}.pdf
+        git commit -m "Add PDF report for ${{ env.TAREEK }}"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
