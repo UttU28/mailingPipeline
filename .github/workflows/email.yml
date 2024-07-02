@@ -3,7 +3,7 @@ name: Send Email
 on:
   push:
     branches:
-      - mainaa
+      - main
   workflow_dispatch:
 
 permissions:
@@ -51,6 +51,7 @@ jobs:
         password: ${{secrets.MAIL_PASSWORD}}
         subject: ${{env.SUBJECT}}
         to: utsavmaan28@gmail.com
+        # to: shravan@midhtech.com
         from: Utsav Chaudhary
         body: |
           Hey, this is todays report. 
