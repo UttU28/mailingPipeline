@@ -3,7 +3,7 @@ name: Send Email
 on:
   push:
     branches:
-      - maina
+      - mainaa
   workflow_dispatch:
 
 permissions:
