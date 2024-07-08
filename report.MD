@@ -3,9 +3,8 @@
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-
 ### **Follow Ups**
-- Reachout: **Azeem Mohiuddin** from **TeknoSpar Inc** regarding Azure DevOps Position
-- Reachout: **Ankit K** from **Tanisha** regarding Azure ML DevOps Position
-- Connected with Shushank regarding positions on Dice and Worked on resume for ML with him.
+- Reachout: **MAIL** to **Multiple Recruiters** regarding Azure DevOps and GitHub Actions Position
+- Reachout: **MAIL** to **Multiple Recruiters** regarding Azure and AWS Cloud Engineer
+- Connected with Shushank regarding positions on Dice and Worked on resume for Git nad Azure.
 - LinkedIn Connections reachout.
