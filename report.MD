@@ -3,7 +3,8 @@
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
+
 ### **Follow Ups**
-- Reachout: **MAIL** to **Multiple Recruiters** regarding Azure and AWS Cloud Engineer
+- Reachout: **MAIL** to **Multiple Recruiters** regarding Azure DevOps and GitHub Actions Position
 - Connected with Shushank regarding positions on Dice
 - LinkedIn Connections reachout.
