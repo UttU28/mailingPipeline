@@ -1,10 +1,11 @@
 ### **Job Applications from LinkedIn, Monster, Dice, Google, etc...**
-- **Indeed:** 3 applications
-- **Monster:** 1 applications
-- **Dice:** 12 applications
-- **Email_Prohires:** 5 applications
+- **Indeed:** 4 applications
+- **Monster:** 0 applications
+- **Dice:** 13 applications
+- **Email_Prohires:** 2 applications
 - **External:** 2 applications  
-- **LinkedIn:** 0 applications [Verification process, blocked until verification complete]
+- **LinkedIn:** 9 applications
 
 ### **Follow Ups**
+- Sent docs to Yousuf (DL and SSN)
 - Called Recruiters regarding position.
