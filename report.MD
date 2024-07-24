@@ -1,11 +1,10 @@
 ### **Job Applications from LinkedIn, Monster, Dice, Google, etc...**
-- **Indeed:** 5 applications
+- **Indeed:** 2 applications
 - **Monster:** 1 applications
-- **Dice:** 9 applications
+- **Dice:** 13 applications
 - **Email_Prohires:** 0 applications
-- **External:** 4 applications  
-- **LinkedIn:** 13 applications
+- **External:** 3 applications  
+- **LinkedIn:** 6 applications
 
 ### **Follow Ups**
-- Mailed Cree
-- Called Recruiters regarding position.
+- Called 3 Recruiters regarding position.
