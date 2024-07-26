@@ -1,7 +1,7 @@
 ### **Job Applications from LinkedIn, Monster, Dice, Google, etc...**
 - **Indeed:** 3 applications
 - **Monster:** 1 applications
-- **Dice:** 16 applications
+- **Dice:** 17 applications
 - **Email_Prohires:** 0 applications
 - **External:** 3 applications  
 - **LinkedIn:** 10 applications
