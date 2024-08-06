@@ -1,10 +1,10 @@
 ### **Job Applications from LinkedIn, Monster, Dice, Google, etc...**
-- **Indeed:** 5 applications
+- **Indeed:** 4 applications
 - **Monster:** 1 applications
-- **Dice:** 25 applications
-- **Email_Prohires:** 0 applications
-- **External:** 1 applications  
-- **LinkedIn:** 13 applications
+- **Dice:** 28 applications
+- **Email_Prohires:** 3 applications
+- **External:** 2 applications  
+- **LinkedIn:** 8 applications
 
 ### **Follow Ups**
 - Sent Details and Resume to Email Response
